@@ -1,0 +1,46 @@
+.title{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+.subheading{
+    text-align: center;
+}
+.mainposter{
+    width: 900px;
+}
+.trackposter{
+    width: 450px;
+    margin-right: 30px;
+}
+.maindiv{
+    display: flex;
+    justify-content: center;
+}
+.subdiv{
+    display: flex;
+    justify-content: center;
+}
+.tracks{
+    text-align: center;
+}
+.Registerdiv{
+    display: flex;
+    justify-content: center;
+}
+.Registerlink{
+    text-decoration: none;
+}
+body{
+    background-color: black;
+}
+@media screen and (max-width: 700px) {
+    .mainposter{
+        width: 250px;
+    }
+    .trackposter{
+        width: 125px;
+
+    }
+
+}
